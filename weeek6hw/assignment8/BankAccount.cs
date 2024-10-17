@@ -8,7 +8,7 @@ namespace assignment8
 {
     internal class BankAccount
     {
-        public string AccountNumber { get; set; }
+        public string AccountNumber { get; private set; }
         public double Balance { get; set; }
 
         public BankAccount(string accountNumber, double initialBalance)
